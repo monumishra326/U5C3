@@ -1,0 +1,24 @@
+{
+  "books": [
+    {
+      "title": "danish",
+      "imageUrl": "image Url",
+      "description": "Book desczczvdc zdvdf",
+      "reviews": ["multiple reviews here"],
+      "author": "danish Author",
+      "price": 1234,
+      "section": "Section as mentioned in problem statement",
+      "isbnNumber": 1234567
+    },
+    {
+      "title": "sufiyan",
+      "imageUrl": "image Url",
+      "description": "Book desczczvdc zdvdf",
+      "reviews": ["multiple reviews here"],
+      "author": "sufiyan Author",
+      "price": 2234,
+      "section": "Section as mentioned in problem statement",
+      "isbnNumber": 2552534567
+    }
+  ]
+}
