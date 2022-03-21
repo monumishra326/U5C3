@@ -46,6 +46,28 @@ export const Home = () => {
       setbookdata(filt);
     });
   };
+  const pricedsc = () => {
+    axios.get("http://localhost:8080/books").then((res) => {
+      var filt = res.data;
+      filt.sort((a, b) => {
+        return b.price - a.price;
+      });
+      console.log(filt);
+
+      setbookdata(filt);
+    });
+  };
+  const priceasc = () => {
+    axios.get("http://localhost:8080/books").then((res) => {
+      var filt = res.data;
+      filt.sort((a, b) => {
+        return a.price - b.price;
+      });
+      console.log(filt);
+
+      setbookdata(filt);
+    });
+  };
 
   return (
     <div className="homeContainer">
@@ -80,8 +102,22 @@ export const Home = () => {
         >
           sortByTitleDesc
         </button>
-        <button className="sortByPriceAsc">sortByPriceAsc</button>
-        <button className="sortByPriceDesc">sortByPriceDesc</button>
+        <button
+          className="sortByPriceAsc"
+          onClick={() => {
+            priceasc();
+          }}
+        >
+          sortByPriceAsc
+        </button>
+        <button
+          className="sortByPriceDesc"
+          onClick={() => {
+            pricedsc();
+          }}
+        >
+          sortByPriceDesc
+        </button>
       </div>
       {/* <SortAndFilterButtons
         handleSort={
