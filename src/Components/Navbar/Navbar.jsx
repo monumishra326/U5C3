@@ -21,7 +21,7 @@ export const Navbar = () => {
           <Link to={`/Mythology`}>Mythology</Link>
         </button>
         <button className="history">
-          <Link to={`/history`}>history</Link>
+          <Link to={`/History`}>history</Link>
         </button>
       </div>
     </>

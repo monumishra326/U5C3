@@ -1,17 +1,27 @@
+import { useParams } from "react-router-dom";
+
 export const BookDetailsPage = () => {
   // Get book details based on ID whenever user lands on the page
   // ID will come from route
+  var { id } = useParams;
+  const [bookdata, setbookdata] = useState([]);
 
+  const getbook = () => {
+    axios.get("http://localhost:8080/books/${id").then((res) => {
+      setbookdata(res.data);
+      console.log(res.data);
+    });
+  };
   return (
     <>
       <div className="bookContainer">
-        <h2 className="title">{"show book tile here"}</h2>
-        <img className="image" src={"show book image here"} alt="#" />
-        <div className="author">{"show book Author here"}</div>
-        <div className="description">{"show book Description here"}</div>
-        <div className="price">{"show book Price here"}</div>
-        <div className="section">{"show book section name here"}</div>
-        <div className="isbnNumber">{"show book ISBN number here"}</div>
+        <h2 className="title">{bookdata.title}</h2>
+        <img className="image" src={bookdata.imgUrl} alt="#" />
+        <div className="author">{bookdata.author}</div>
+        <div className="description">{bookdata.description}</div>
+        <div className="price">{bookdata.price}</div>
+        <div className="section">{bookdata.section}</div>
+        <div className="isbnNumber">{bookdata.isbnNumber}</div>
         <ul className="reviews">
           {/* Reviews will be an array, iterate over them and create a new <li> for every review */}
         </ul>

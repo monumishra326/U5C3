@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
-export const Home = () => {
+export const Mystery = () => {
   // get all books when user lands on the page
   // populate them as mentioned below
 
@@ -15,8 +15,15 @@ export const Home = () => {
 
   const getbook = () => {
     axios.get("http://localhost:8080/books").then((res) => {
-      setbookdata(res.data);
-      console.log(res.data);
+      var filt = res.data;
+
+      var filt2 = filt.filter((e) => {
+        return e.author == "Mystery";
+      });
+
+      setbookdata(filt2);
+
+      // console.log(res.data);
     });
   };
 
@@ -71,7 +78,7 @@ export const Home = () => {
 
   return (
     <div className="homeContainer">
-      <h2 style={{ textAlign: "center" }}>Home</h2>
+      <h2 style={{ textAlign: "center" }}>Mystery</h2>
       <div className="sortButtons">
         {/*
         Create 4 sorting buttons here to sort by following criteria:
