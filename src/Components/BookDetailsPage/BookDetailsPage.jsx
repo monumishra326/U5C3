@@ -1,4 +1,6 @@
 import { useParams } from "react-router-dom";
+import { useState } from "react";
+import axios from "axios";
 
 export const BookDetailsPage = () => {
   // Get book details based on ID whenever user lands on the page
