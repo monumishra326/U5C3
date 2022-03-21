@@ -16,23 +16,80 @@ export const Home = () => {
   const getbook = () => {
     axios.get("http://localhost:8080/books").then((res) => {
       setbookdata(res.data);
+      console.log(res.data);
     });
   };
 
   useEffect(() => {
     getbook();
-  }, []);
+  }, bookdata);
+
+  const nameasc = () => {
+    axios.get("http://localhost:8080/books").then((res) => {
+      var filt = res.data;
+      filt.sort((a, b) => {
+        return a.title - b.title;
+      });
+      console.log(filt);
+
+      setbookdata(filt);
+    });
+  };
+  const namedsc = () => {
+    axios.get("http://localhost:8080/books").then((res) => {
+      var filt = res.data;
+      filt.sort((a, b) => {
+        return b.title - a.title;
+      });
+      console.log(filt);
+
+      setbookdata(filt);
+    });
+  };
 
   return (
     <div className="homeContainer">
       <h2 style={{ textAlign: "center" }}>Home</h2>
+      <div className="sortButtons">
+        {/*
+        Create 4 sorting buttons here to sort by following criteria:
+
+        sort title in Ascending order  class: sortByTitleAsc
+        sort title in Descending order class: sortByTitleDesc
+        sort price asending order      class: sortByPriceAsc
+        sort price descending order    class: sortByPriceDesc
+
+        on every button click, call the reusable sorting function
+        you received from Parent component, 
+        and sort the data.
+
+      */}
+        <button
+          className="sortByTitleAsc"
+          onClick={() => {
+            nameasc();
+          }}
+        >
+          sortByTitleAsc
+        </button>
+        <button
+          className="sortByTitleDesc"
+          onClick={() => {
+            namedsc();
+          }}
+        >
+          sortByTitleDesc
+        </button>
+        <button className="sortByPriceAsc">sortByPriceAsc</button>
+        <button className="sortByPriceDesc">sortByPriceDesc</button>
+      </div>
       {/* <SortAndFilterButtons
         handleSort={
           "give handleSort function to this component, that sorts books"
         }
       /> */}
 
-      <div className="mainContainer" border="1px solid black">
+      <div className="mainContainer">
         {/* 
             Iterate over books that you get from network
             populate a <BookCard /> component
@@ -41,13 +98,15 @@ export const Home = () => {
         */}
 
         {bookdata.map((el) => {
-          <Link to={`/books/${el.id}`}>
-            <div className="bookCard">
-              <img src={`el.imageUrl`} alt="" />
-              <h2 classname="title">{el.title}</h2>
-              <p class="price">{el.price}</p>
-            </div>
-          </Link>;
+          return (
+            <Link to={`/books/${el.id}`}>
+              <div className="bookCard">
+                <img src={`${el.imageUrl}`} alt="" />
+                <h2 className="title">{el.title}</h2>
+                <p className="price">{el.price}</p>
+              </div>
+            </Link>
+          );
         })}
       </div>
     </div>
