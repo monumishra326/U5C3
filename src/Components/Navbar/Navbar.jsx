@@ -9,19 +9,19 @@ export const Navbar = () => {
             <button className="history"> Link to history here  </button>  */}
         {/* Home component will have `/` route and classname as `home`  */}
         <button className="Home">
-          <Link to={`/`}>Home</Link>
+          <Link to="/">Home</Link>
         </button>
         <button className="Mystery">
-          <Link to={`/Mystery`}>Mystery</Link>
+          <Link to="/Mystery">Mystery</Link>
         </button>
         <button className="Technology">
-          <Link to={`Technology`}>Technology</Link>
+          <Link to="/Technology">Technology</Link>
         </button>
         <button className="Mythology">
-          <Link to={`/Mythology`}>Mythology</Link>
+          <Link to="/Mythology">Mythology</Link>
         </button>
         <button className="history">
-          <Link to={`/History`}>history</Link>
+          <Link to="/History">History</Link>
         </button>
       </div>
     </>

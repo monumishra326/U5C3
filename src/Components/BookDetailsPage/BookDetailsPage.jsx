@@ -1,24 +1,29 @@
 import { useParams } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
 
 export const BookDetailsPage = () => {
   // Get book details based on ID whenever user lands on the page
   // ID will come from route
-  var { id } = useParams;
-  const [bookdata, setbookdata] = useState([]);
+  const { id } = useParams();
+  const [bookdata, setbookdata] = useState({});
 
   const getbook = () => {
-    axios.get("http://localhost:8080/books/${id").then((res) => {
+    axios.get(`http://localhost:8080/books/${id}`).then((res) => {
       setbookdata(res.data);
       console.log(res.data);
     });
   };
+
+  useEffect(() => {
+    getbook();
+  }, []);
+
   return (
     <>
       <div className="bookContainer">
         <h2 className="title">{bookdata.title}</h2>
-        <img className="image" src={bookdata.imgUrl} alt="#" />
+        <img className="image" src={bookdata.imageUrl} alt="#dsfd" />
         <div className="author">{bookdata.author}</div>
         <div className="description">{bookdata.description}</div>
         <div className="price">{bookdata.price}</div>

@@ -1,504 +1,130 @@
 {
   "books": [
     {
-      "title": "danish",
-      "imageUrl": "image Url",
+      "id": 1,
+
+      "title": "danish History",
+      "imageUrl": "http://dummyimage.com/160x100.png/ff4444/ffffff",
       "description": "Book desczczvdc zdvdf",
       "reviews": ["multiple reviews here"],
       "author": "danish Author",
       "price": 1234,
-      "section": "Section as mentioned in problem statement",
+      "section": "History",
       "isbnNumber": 1234567
     },
     {
-      "title": "sufiyan",
-      "imageUrl": "image Url",
+      "id": 2,
+
+      "title": "sufiyan History",
+      "imageUrl": "http://dummyimage.com/160x100.png/ff4444/ffffff",
       "description": "Book desczczvdc zdvdf",
       "reviews": ["multiple reviews here"],
       "author": "sufiyan Author",
       "price": 2234,
-      "section": "Section as mentioned in problem statement",
+      "section": "History",
       "isbnNumber": 2552534567
     },
     {
       "id": 3,
-      "title": "Champ, The",
+      "title": "Champ, The History",
       "imageUrl": "http://dummyimage.com/160x100.png/ff4444/ffffff",
       "author": "Drama",
       "price": 4303,
-      "section": "Extraction of Products of Conception, Vacuum, Via Opening",
+      "section": "History",
       "reviews": "nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum",
       "isbnNumber": 1026
     },
     {
       "id": 4,
-      "title": "Broken City",
-      "imageUrl": "http://dummyimage.com/210x100.png/dddddd/000000",
-      "author": "Crime|Drama|Thriller",
-      "price": 4879,
-      "section": "Removal of Drain Dev from Male Perineum, Extern Approach",
-      "reviews": "metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et",
-      "isbnNumber": 3834
+      "title": "adfdddddddddddd Mystery",
+      "imageUrl": "http://dummyimage.com/160x100.png/ff4444/ffffff",
+      "description": "Book desczczvdc zdvdf",
+      "reviews": ["multiple reviews here"],
+      "author": "danish Author",
+      "price": 1262334,
+      "section": "Mystery",
+      "isbnNumber": 312316
     },
     {
       "id": 5,
-      "title": "Kentucky Fried Movie, The",
-      "imageUrl": "http://dummyimage.com/137x100.png/cc0000/ffffff",
-      "author": "Comedy",
-      "price": 1275,
-      "section": "Excision of Right Clavicle, Percutaneous Approach, Diagn",
-      "reviews": "suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien",
-      "isbnNumber": 2014
+      "title": "sufiyasdfsdfn Mystery",
+      "imageUrl": "http://dummyimage.com/160x100.png/ff4444/ffffff",
+      "description": "Book desczczvdc zdvdf",
+      "reviews": ["multiple reviews here"],
+      "author": "sufiyan Author",
+      "price": 2234,
+      "section": "Mystery",
+      "isbnNumber": 255232534567
     },
     {
       "id": 6,
-      "title": "KM 31: Kilometro 31",
-      "imageUrl": "http://dummyimage.com/123x100.png/5fa2dd/ffffff",
-      "author": "Mystery",
-      "price": 341,
-      "section": "Introduce Nonaut Pancr Islet in Bil/Panc Tract, Via Opening",
-      "reviews": "libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac",
-      "isbnNumber": 2685
+      "title": "Champ, The Technology",
+      "imageUrl": "http://dummyimage.com/160x100.png/ff4444/ffffff",
+      "author": "Drama",
+      "price": 45456,
+      "section": "Technology",
+      "reviews": "nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum",
+      "isbnNumber": 10256
     },
     {
       "id": 7,
-      "title": "Night of the Demons 2",
-      "imageUrl": "http://dummyimage.com/163x100.png/ff4444/ffffff",
-      "author": "Horror",
-      "price": 4650,
-      "section": "Extirpation of Matter from Right Elbow Joint, Perc Approach",
-      "reviews": "nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur",
-      "isbnNumber": 1799
+      "title": "Champ, The Technology",
+      "imageUrl": "http://dummyimage.com/160x100.png/ff4444/ffffff",
+      "author": "Drama",
+      "price": 4303,
+      "section": "Technology",
+      "reviews": "nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum",
+      "isbnNumber": 102256
     },
     {
       "id": 8,
-      "title": "That Night in Varennes (Nuit de Varennes, La)",
-      "imageUrl": "http://dummyimage.com/161x100.png/5fa2dd/ffffff",
+      "title": "Champ, The Technology",
+      "imageUrl": "http://dummyimage.com/160x100.png/ff4444/ffffff",
       "author": "Drama",
-      "price": 3919,
-      "section": "Fluoroscopy of Bi Up Extrem Art using L Osm Contrast",
-      "reviews": "fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum",
-      "isbnNumber": 3294
+      "price": 4503,
+      "section": "Technology",
+      "reviews": "nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum",
+      "isbnNumber": 12256
     },
     {
       "id": 9,
-      "title": "Lord of the Flies",
-      "imageUrl": "http://dummyimage.com/154x100.png/5fa2dd/ffffff",
-      "author": "Adventure|Drama|Thriller",
-      "price": 3026,
-      "section": "Dilate R Subclav Art, Bifurc, w 2 Intralum Dev, Perc Endo",
-      "reviews": "a odio in hac habitasse platea dictumst maecenas ut massa quis",
-      "isbnNumber": 4022
+      "title": "Champ, The Technology",
+      "imageUrl": "http://dummyimage.com/160x100.png/ff4444/ffffff",
+      "author": "Drama",
+      "price": 4503,
+      "section": "Technology",
+      "reviews": "nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum",
+      "isbnNumber": 122256
     },
     {
       "id": 10,
-      "title": "Invitation to Happiness",
-      "imageUrl": "http://dummyimage.com/166x100.png/dddddd/000000",
-      "author": "Drama|Romance",
-      "price": 729,
-      "section": "Occlusion of Stomach, Pylorus, Percutaneous Approach",
-      "reviews": "porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in",
-      "isbnNumber": 2891
+      "title": "Champ, The Mythology",
+      "imageUrl": "http://dummyimage.com/160x100.png/ff4444/ffffff",
+      "author": "Drama",
+      "price": 4803,
+      "section": "Mythology",
+      "reviews": "nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum",
+      "isbnNumber": 108256
     },
     {
       "id": 11,
-      "title": "Committed",
-      "imageUrl": "http://dummyimage.com/100x100.png/5fa2dd/ffffff",
-      "author": "Comedy|Drama",
-      "price": 3944,
-      "section": "Insertion of Radioact Elem into R Knee, Perc Endo Approach",
-      "reviews": "maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu",
-      "isbnNumber": 123
+      "title": "Champ, The Mythology",
+      "imageUrl": "http://dummyimage.com/160x100.png/ff4444/ffffff",
+      "author": "Drama",
+      "price": 655503,
+      "section": "Mythology",
+      "reviews": "nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum",
+      "isbnNumber": 122556
     },
     {
       "id": 12,
-      "title": "I'm Here",
-      "imageUrl": "http://dummyimage.com/110x100.png/ff4444/ffffff",
+      "title": "Champ, The Mythology",
+      "imageUrl": "http://dummyimage.com/160x100.png/ff4444/ffffff",
       "author": "Drama",
-      "price": 1341,
-      "section": "Map Cerebral Hemisphere, Open Approach",
-      "reviews": "tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in",
-      "isbnNumber": 1860
-    },
-    {
-      "id": 13,
-      "title": "Rabid",
-      "imageUrl": "http://dummyimage.com/225x100.png/5fa2dd/ffffff",
-      "author": "Horror|Thriller",
-      "price": 4933,
-      "section": "Dilate R Com Iliac Art w 4 Drug-elut, Perc Endo",
-      "reviews": "proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum",
-      "isbnNumber": 4900
-    },
-    {
-      "id": 14,
-      "title": "Bloodsport 2 (a.k.a. Bloodsport II: The Next Kumite)",
-      "imageUrl": "http://dummyimage.com/230x100.png/cc0000/ffffff",
-      "author": "Action",
-      "price": 4720,
-      "section": "Inspection of Left Upper Leg, External Approach",
-      "reviews": "duis mattis egestas metus aenean fermentum donec ut mauris eget massa",
-      "isbnNumber": 4280
-    },
-    {
-      "id": 15,
-      "title": "Cloud 9",
-      "imageUrl": "http://dummyimage.com/206x100.png/cc0000/ffffff",
-      "author": "Drama|Romance",
-      "price": 1354,
-      "section": "Osteopathic Treatment of Low Extrem w Muscle Isotonic",
-      "reviews": "consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat",
-      "isbnNumber": 3445
-    },
-    {
-      "id": 16,
-      "title": "Viridiana",
-      "imageUrl": "http://dummyimage.com/236x100.png/ff4444/ffffff",
-      "author": "Comedy|Drama",
-      "price": 1739,
-      "section": "Dilate R Int Iliac Art, Bifurc, w 3 Intralum Dev, Perc",
-      "reviews": "dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit",
-      "isbnNumber": 3954
-    },
-    {
-      "id": 17,
-      "title": "Taste of Others, The (Le goût des autres)",
-      "imageUrl": "http://dummyimage.com/223x100.png/cc0000/ffffff",
-      "author": "Comedy|Drama|Romance",
-      "price": 3475,
-      "section": "Bypass R Hepatic Duct to Caud Duct w Intralum Dev, Perc Endo",
-      "reviews": "arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula",
-      "isbnNumber": 1267
-    },
-    {
-      "id": 18,
-      "title": "Good Night, The",
-      "imageUrl": "http://dummyimage.com/151x100.png/dddddd/000000",
-      "author": "Comedy|Drama|Fantasy|Musical|Romance",
-      "price": 1083,
-      "section": "Repair Head and Neck Tendon, Open Approach",
-      "reviews": "dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus",
-      "isbnNumber": 949
-    },
-    {
-      "id": 19,
-      "title": "From Here to Eternity",
-      "imageUrl": "http://dummyimage.com/242x100.png/dddddd/000000",
-      "author": "Drama|Romance|War",
-      "price": 1824,
-      "section": "Removal of Radioact Elem from Pancreat Duct, Perc Approach",
-      "reviews": "id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl",
-      "isbnNumber": 3910
-    },
-    {
-      "id": 20,
-      "title": "Bridge of Dragons",
-      "imageUrl": "http://dummyimage.com/187x100.png/5fa2dd/ffffff",
-      "author": "Action|Romance|Sci-Fi|Thriller",
-      "price": 3905,
-      "section": "Alteration of Left Lower Leg, Open Approach",
-      "reviews": "venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus",
-      "isbnNumber": 483
-    },
-    {
-      "id": 21,
-      "title": "Leprechaun 4: In Space",
-      "imageUrl": "http://dummyimage.com/244x100.png/ff4444/ffffff",
-      "author": "Comedy|Fantasy|Horror|Sci-Fi",
-      "price": 2282,
-      "section": "Resection of Right Ureter, Via Natural or Artificial Opening",
-      "reviews": "potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum",
-      "isbnNumber": 4249
-    },
-    {
-      "id": 22,
-      "title": "Wild Horse, Wild Ride",
-      "imageUrl": "http://dummyimage.com/201x100.png/cc0000/ffffff",
-      "author": "Documentary|Western",
-      "price": 2218,
-      "section": "Bypass L Basilic Vein to Up Vein w Autol Sub, Perc Endo",
-      "reviews": "pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat",
-      "isbnNumber": 2501
-    },
-    {
-      "id": 23,
-      "title": "This Special Friendship (Les amitiés particulières)",
-      "imageUrl": "http://dummyimage.com/149x100.png/cc0000/ffffff",
-      "author": "Drama",
-      "price": 4597,
-      "section": "Replace of Low Tooth, Sing, with Autol Sub, Open Approach",
-      "reviews": "interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum",
-      "isbnNumber": 2445
-    },
-    {
-      "id": 24,
-      "title": "Trick 'r Treat",
-      "imageUrl": "http://dummyimage.com/238x100.png/dddddd/000000",
-      "author": "Comedy|Horror|Thriller",
-      "price": 3666,
-      "section": "Revision of Autol Sub in Lumsac Jt, Open Approach",
-      "reviews": "ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in",
-      "isbnNumber": 2040
-    },
-    {
-      "id": 25,
-      "title": "King Kong",
-      "imageUrl": "http://dummyimage.com/222x100.png/dddddd/000000",
-      "author": "Adventure|Fantasy|Romance|Sci-Fi|Thriller",
-      "price": 1527,
-      "section": "Replace R Subclav Vein w Nonaut Sub, Perc Endo",
-      "reviews": "duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac",
-      "isbnNumber": 952
-    },
-    {
-      "id": 26,
-      "title": "Mega Piranha",
-      "imageUrl": "http://dummyimage.com/150x100.png/dddddd/000000",
-      "author": "Action|Adventure|Horror|Sci-Fi",
-      "price": 1192,
-      "section": "Excision of Left Ovary, Endo, Diagn",
-      "reviews": "aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget",
-      "isbnNumber": 2504
-    },
-    {
-      "id": 27,
-      "title": "Bed & Board (Domicile conjugal)",
-      "imageUrl": "http://dummyimage.com/247x100.png/cc0000/ffffff",
-      "author": "Comedy|Drama",
-      "price": 2225,
-      "section": "Ear, Nose, Sinus, Drainage",
-      "reviews": "amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue",
-      "isbnNumber": 3027
-    },
-    {
-      "id": 28,
-      "title": "Gunfighters",
-      "imageUrl": "http://dummyimage.com/239x100.png/cc0000/ffffff",
-      "author": "Action|Drama|Romance|Western",
-      "price": 3306,
-      "section": "Removal of Stimulator Lead from Ureter, Open Approach",
-      "reviews": "sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec",
-      "isbnNumber": 3212
-    },
-    {
-      "id": 29,
-      "title": "Unknown Pleasures (Ren xiao yao)",
-      "imageUrl": "http://dummyimage.com/228x100.png/cc0000/ffffff",
-      "author": "Comedy|Drama",
-      "price": 1531,
-      "section": "LDR Brachytherapy of Bronchus using Iridium 192",
-      "reviews": "vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat",
-      "isbnNumber": 4750
-    },
-    {
-      "id": 30,
-      "title": "Brats, The (Les gamins)",
-      "imageUrl": "http://dummyimage.com/152x100.png/cc0000/ffffff",
-      "author": "Comedy",
-      "price": 2332,
-      "section": "Reposition Right Tarsal with Ext Fix, Perc Endo Approach",
-      "reviews": "odio consequat varius integer ac leo pellentesque ultrices mattis odio donec",
-      "isbnNumber": 378
-    },
-    {
-      "id": 31,
-      "title": "The Old Maid",
-      "imageUrl": "http://dummyimage.com/111x100.png/5fa2dd/ffffff",
-      "author": "Drama",
-      "price": 508,
-      "section": "Revision of Autol Sub in Up Vein, Open Approach",
-      "reviews": "dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius",
-      "isbnNumber": 1788
-    },
-    {
-      "id": 32,
-      "title": "La Luna",
-      "imageUrl": "http://dummyimage.com/115x100.png/5fa2dd/ffffff",
-      "author": "Animation",
-      "price": 1654,
-      "section": "Revision of Drainage Device in R Hip Jt, Open Approach",
-      "reviews": "congue diam id ornare imperdiet sapien urna pretium nisl ut",
-      "isbnNumber": 4426
-    },
-    {
-      "id": 33,
-      "title": "Pleasure Seekers, The",
-      "imageUrl": "http://dummyimage.com/170x100.png/cc0000/ffffff",
-      "author": "Comedy|Musical|Romance",
-      "price": 3225,
-      "section": "Removal of Ext Fix from L Humeral Shaft, Extern Approach",
-      "reviews": "montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus",
-      "isbnNumber": 1656
-    },
-    {
-      "id": 34,
-      "title": "Sacco and Vanzetti (Sacco e Vanzetti)",
-      "imageUrl": "http://dummyimage.com/111x100.png/5fa2dd/ffffff",
-      "author": "Drama",
-      "price": 1565,
-      "section": "Transfer Left Thorax Muscle with Subcu, Open Approach",
-      "reviews": "blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue",
-      "isbnNumber": 3304
-    },
-    {
-      "id": 35,
-      "title": "Kindergarten Cop",
-      "imageUrl": "http://dummyimage.com/218x100.png/cc0000/ffffff",
-      "author": "Action|Comedy|Crime|Thriller",
-      "price": 4159,
-      "section": "Drainage of Other Fetal Fluid from POC, Perc Approach",
-      "reviews": "sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla",
-      "isbnNumber": 2690
-    },
-    {
-      "id": 36,
-      "title": "Misérables, Les",
-      "imageUrl": "http://dummyimage.com/159x100.png/ff4444/ffffff",
-      "author": "Crime|Drama|Romance|War",
-      "price": 1942,
-      "section": "Revision of Synth Sub in Low Tendon, Extern Approach",
-      "reviews": "eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium",
-      "isbnNumber": 1187
-    },
-    {
-      "id": 37,
-      "title": "Miracle Run",
-      "imageUrl": "http://dummyimage.com/192x100.png/ff4444/ffffff",
-      "author": "Drama",
-      "price": 2813,
-      "section": "Drainage of Right Lower Eyelid with Drain Dev, Open Approach",
-      "reviews": "aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque",
-      "isbnNumber": 2794
-    },
-    {
-      "id": 38,
-      "title": "Coneheads",
-      "imageUrl": "http://dummyimage.com/222x100.png/cc0000/ffffff",
-      "author": "Comedy|Sci-Fi",
-      "price": 387,
-      "section": "Bypass L Fem Art to Low Ex Art w Autol Vn, Perc Endo",
-      "reviews": "odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer",
-      "isbnNumber": 3513
-    },
-    {
-      "id": 39,
-      "title": "Dr. Jekyll and Mr. Hyde",
-      "imageUrl": "http://dummyimage.com/216x100.png/cc0000/ffffff",
-      "author": "Drama|Horror|Sci-Fi|Thriller",
-      "price": 480,
-      "section": "Destruction of Cul-de-sac, Via Natural or Artificial Opening",
-      "reviews": "aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu",
-      "isbnNumber": 3335
-    },
-    {
-      "id": 40,
-      "title": "Swept Away (Travolti da un insolito destino nell'azzurro mare d'Agosto)",
-      "imageUrl": "http://dummyimage.com/203x100.png/5fa2dd/ffffff",
-      "author": "Comedy|Drama",
-      "price": 1030,
-      "section": "Transfusion of Nonaut WBC into Periph Vein, Open Approach",
-      "reviews": "suspendisse potenti cras in purus eu magna vulputate luctus cum sociis",
-      "isbnNumber": 121
-    },
-    {
-      "id": 41,
-      "title": "Torn Curtain",
-      "imageUrl": "http://dummyimage.com/104x100.png/ff4444/ffffff",
-      "author": "Thriller",
-      "price": 1444,
-      "section": "Excision of Right Colic Artery, Open Approach",
-      "reviews": "justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id",
-      "isbnNumber": 3655
-    },
-    {
-      "id": 42,
-      "title": "Belle époque",
-      "imageUrl": "http://dummyimage.com/139x100.png/cc0000/ffffff",
-      "author": "Comedy|Romance",
-      "price": 3703,
-      "section": "Reattachment of Left Hand Muscle, Open Approach",
-      "reviews": "vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus",
-      "isbnNumber": 1783
-    },
-    {
-      "id": 43,
-      "title": "Fat Head",
-      "imageUrl": "http://dummyimage.com/248x100.png/ff4444/ffffff",
-      "author": "Documentary",
-      "price": 4623,
-      "section": "Replace of L Finger Phalanx with Synth Sub, Perc Approach",
-      "reviews": "libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum",
-      "isbnNumber": 1062
-    },
-    {
-      "id": 44,
-      "title": "The Killers",
-      "imageUrl": "http://dummyimage.com/183x100.png/ff4444/ffffff",
-      "author": "Crime",
-      "price": 2903,
-      "section": "Supplement R Hip Muscle with Nonaut Sub, Perc Endo Approach",
-      "reviews": "etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam",
-      "isbnNumber": 4983
-    },
-    {
-      "id": 45,
-      "title": "Fate (Yazgi)",
-      "imageUrl": "http://dummyimage.com/224x100.png/5fa2dd/ffffff",
-      "author": "Drama",
-      "price": 1321,
-      "section": "Repair Right 5th Toe, External Approach",
-      "reviews": "sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor",
-      "isbnNumber": 4478
-    },
-    {
-      "id": 46,
-      "title": "Arctic Tale",
-      "imageUrl": "http://dummyimage.com/228x100.png/ff4444/ffffff",
-      "author": "Documentary",
-      "price": 4962,
-      "section": "Removal of Synth Sub from L Metacarpophal Jt, Open Approach",
-      "reviews": "justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat",
-      "isbnNumber": 544
-    },
-    {
-      "id": 47,
-      "title": "Alien Space Avenger",
-      "imageUrl": "http://dummyimage.com/212x100.png/dddddd/000000",
-      "author": "Comedy|Horror|Sci-Fi",
-      "price": 233,
-      "section": "Eye, Transfer",
-      "reviews": "in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc",
-      "isbnNumber": 1979
-    },
-    {
-      "id": 48,
-      "title": "Silence, The (Tystnaden)",
-      "imageUrl": "http://dummyimage.com/163x100.png/dddddd/000000",
-      "author": "Drama",
-      "price": 1971,
-      "section": "Drainage of Pancreas, Perc Endo Approach, Diagn",
-      "reviews": "in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient",
-      "isbnNumber": 2162
-    },
-    {
-      "id": 49,
-      "title": "Dying Gaul, The",
-      "imageUrl": "http://dummyimage.com/122x100.png/5fa2dd/ffffff",
-      "author": "Drama|Romance",
-      "price": 3653,
-      "section": "Drainage of Right Eustachian Tube, Open Approach, Diagnostic",
-      "reviews": "tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus",
-      "isbnNumber": 557
-    },
-    {
-      "id": 50,
-      "title": "Breakin' All the Rules",
-      "imageUrl": "http://dummyimage.com/168x100.png/5fa2dd/ffffff",
-      "author": "Comedy|Romance",
-      "price": 4553,
-      "section": "Drainage of Upper Jaw, Percutaneous Approach, Diagnostic",
-      "reviews": "dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id",
-      "isbnNumber": 575
+      "price": 77503,
+      "section": "Mythology",
+      "reviews": "nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum",
+      "isbnNumber": 12623656256
     }
   ]
 }

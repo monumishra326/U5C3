@@ -8,6 +8,8 @@ import { NotFound } from "../Components/NotFound/NotFound";
 import { Mystery } from "../Components/Section/Mystery";
 import { History } from "../Components/Section/History";
 import { BookDetailsPage } from "../Components/BookDetailsPage/BookDetailsPage";
+import { Mythology } from "../Components/Section/Mythology";
+import { Technology } from "../Components/Section/Technology";
 
 export const AllRoutes = () => {
   return (
@@ -15,10 +17,14 @@ export const AllRoutes = () => {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route exact path="/:id" element={<BookDetailsPage />} />
+        <Route exact path="/books/:id" element={<BookDetailsPage />} />
 
         <Route exact path="*" element={<NotFound />} />
-        <Route exact path="/Mystery" element={<History />} />
+        <Route exact path="/Mystery" element={<Mystery />} />
+        <Route exact path="/History" element={<History />} />
+        <Route exact path="/Technology" element={<Technology />} />
+        <Route exact path="/Mythology" element={<Mythology />} />
+        <Route exact path="/books/:id" element={<BookDetailsPage />} />
 
         {/* <Route exact path="/Mystery" element={<Home />} />
         <Route exact path="/Technology" element={<Home />} />

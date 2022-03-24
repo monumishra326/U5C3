@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
-export const Mystery = () => {
+export const Technology = () => {
   // get all books when user lands on the page
   // populate them as mentioned below
 
@@ -18,7 +18,7 @@ export const Mystery = () => {
       var filt = res.data;
 
       var filt2 = filt.filter((e) => {
-        return e.section == "Mystery";
+        return e.section == "Technology";
       });
 
       setbookdata(filt2);
@@ -78,7 +78,7 @@ export const Mystery = () => {
 
   return (
     <div className="homeContainer">
-      <h2 style={{ textAlign: "center" }}>Mystery</h2>
+      <h2 style={{ textAlign: "center" }}>Technology</h2>
       <div className="sortButtons">
         {/*
         Create 4 sorting buttons here to sort by following criteria:

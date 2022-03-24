@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import { BookCard } from "../BookCard/BookCard";
 
 export const Home = () => {
   // get all books when user lands on the page
@@ -28,9 +29,15 @@ export const Home = () => {
     axios.get("http://localhost:8080/books").then((res) => {
       var filt = res.data;
       filt.sort((a, b) => {
-        return a.title - b.title;
+        if (a.title < b.title) {
+          return -1;
+        }
+        if (a.title > b.title) {
+          return 1;
+        }
+        return 0;
       });
-      console.log(filt);
+      // console.log(filt);
 
       setbookdata(filt);
     });
@@ -142,6 +149,14 @@ export const Home = () => {
                 <p className="price">{el.price}</p>
               </div>
             </Link>
+            // <BookCard
+            //   key={el.id}
+            //   id={el.id}
+            //   imageUrl={el.imageUrl}
+            //   title={el.title}
+            //   price={el.price}
+            //   to={`/books/${el.id}`}
+            // />
           );
         })}
       </div>

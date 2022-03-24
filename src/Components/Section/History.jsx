@@ -18,7 +18,7 @@ export const History = () => {
       var filt = res.data;
 
       var filt2 = filt.filter((e) => {
-        return e.author == "History";
+        return e.section == "History";
       });
 
       setbookdata(filt2);
