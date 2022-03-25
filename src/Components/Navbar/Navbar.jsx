@@ -12,16 +12,16 @@ export const Navbar = () => {
           <Link to="/">Home</Link>
         </button>
         <button className="mystery">
-          <Link to="/Mystery">Mystery</Link>
+          <Link to="section/Mystery">Mystery</Link>
         </button>
         <button className="technology">
-          <Link to="/Technology">Technology</Link>
+          <Link to="section/Technology">Technology</Link>
         </button>
         <button className="mythology">
-          <Link to="/Mythology">Mythology</Link>
+          <Link to="section/Mythology">Mythology</Link>
         </button>
         <button className="history">
-          <Link to="/History">History</Link>
+          <Link to="section/History">History</Link>
         </button>
       </div>
     </>

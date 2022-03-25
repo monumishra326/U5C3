@@ -29,13 +29,7 @@ export const Home = () => {
     axios.get("http://localhost:8080/books").then((res) => {
       var filt = res.data;
       filt.sort((a, b) => {
-        if (a.title < b.title) {
-          return -1;
-        }
-        if (a.title > b.title) {
-          return 1;
-        }
-        return 0;
+        return a.title - b.title;
       });
       // console.log(filt);
 
@@ -48,7 +42,7 @@ export const Home = () => {
       filt.sort((a, b) => {
         return b.title - a.title;
       });
-      console.log(filt);
+      // console.log(filt);
 
       setbookdata(filt);
     });
@@ -142,7 +136,7 @@ export const Home = () => {
 
         {bookdata.map((el) => {
           return (
-            <Link to={`/books/${el.id}`}>
+            <Link to={`/bookdetailspage/${el.id}`}>
               <div className="bookCard">
                 <img src={`${el.imageUrl}`} alt="" />
                 <h2 className="title">{el.title}</h2>

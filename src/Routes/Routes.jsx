@@ -20,11 +20,15 @@ export const AllRoutes = () => {
         <Route exact path="/books/:id" element={<BookDetailsPage />} />
 
         <Route exact path="*" element={<NotFound />} />
-        <Route exact path="/Mystery" element={<Mystery />} />
-        <Route exact path="/History" element={<History />} />
-        <Route exact path="/Technology" element={<Technology />} />
-        <Route exact path="/Mythology" element={<Mythology />} />
-        <Route exact path="/books/:id" element={<BookDetailsPage />} />
+        <Route exact path="section/Mystery" element={<Mystery />} />
+        <Route exact path="section/History" element={<History />} />
+        <Route exact path="section/Technology" element={<Technology />} />
+        <Route exact path="section/Mythology" element={<Mythology />} />
+        <Route
+          exact
+          path="/bookdetailspage/:id"
+          element={<BookDetailsPage />}
+        />
 
         {/* <Route exact path="/Mystery" element={<Home />} />
         <Route exact path="/Technology" element={<Home />} />

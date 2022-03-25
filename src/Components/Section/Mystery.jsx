@@ -142,7 +142,7 @@ export const Mystery = () => {
 
         {bookdata.map((el) => {
           return (
-            <Link to={`/books/${el.id}`}>
+            <Link to={`/bookdetailspage/${el.id}`}>
               <div className="bookCard">
                 <img src={`${el.imageUrl}`} alt="" />
                 <h2 className="title">{el.title}</h2>
